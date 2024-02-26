@@ -59,7 +59,7 @@ const Navbar = () => {
                 className="block py-3 px-4 text-white bg-blue-700 rounded hover:bg-white hover:text-blue   hover:rounded-lg hover:px-2  md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
                 aria-current="page"
               >
-                hgfgcffx
+                Home
               </Link>
             </li>
 
