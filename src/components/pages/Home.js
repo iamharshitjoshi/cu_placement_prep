@@ -2,7 +2,7 @@ import React from 'react'
 import bg from '../../images/bg.jpg'
 
 
-const Companies = () => {
+const Home = () => {
   return (
     <>
       <div className='mt-[4rem] w-full h-96 bg-opacity-60 object-cover relative bg-black'>
@@ -18,4 +18,4 @@ const Companies = () => {
   )
 }
 
-export default Companies
+export default Home
