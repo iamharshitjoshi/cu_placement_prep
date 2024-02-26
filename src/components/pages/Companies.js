@@ -5,14 +5,15 @@ import bg from '../../images/bg.jpg'
 const Companies = () => {
   return (
     <>
-      <div className='h-24 w-full mt-[4rem] bg-black'>
-        <img className='absolute w-full h-2/3' src={bg} alt="" />
-        <div className=' absolute w-full h-1/2  '>
-          <h1 className='text text-5xl mt-8'>Welcome to Chandigarh University</h1>
-          <p className='text-3xl
-          '>Get your life a better purpose to become an engineer as soon as possible</p>
-        </div>
+      <div className='mt-[4rem] w-full h-96 bg-opacity-60 object-cover relative bg-black'>
+      <img  className=' w-full  h-full absolute mix-blend-overlay' src={bg} alt='Background'></img>
+        <div className='absolute mr-10 p-20 mt-16'>
+        <h1 className=' text-5xl font-extrabold text-cyan-100 '>Chandigarh University</h1>
+        <p className=' text-3xl text-cyan-100'>Where you can Fuck your Life and Career at the Same time O YEAH!</p>
+
+        </div> 
       </div>
+   
     </>
   )
 }
