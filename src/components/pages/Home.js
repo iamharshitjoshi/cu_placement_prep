@@ -5,7 +5,7 @@ import bg from '../../images/bg.jpg'
 const Home = () => {
   return (
     <>
-      <div className='mt-[4rem] w-full h-96 bg-opacity-60 object-cover relative bg-black'>
+      <div className='mt-[4rem] w-full bg-opacity-60 object-cover relative bg-black'>
       <img  className=' w-full  h-full absolute mix-blend-overlay' src={bg} alt='Background'></img>
         <div className='absolute mr-10 p-20 mt-16'>
         <h1 className=' text-5xl font-extrabold text-cyan-100 '>Chandigarh University</h1>
