@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from '../layout/Navbar'
 
-const Placed_student = () => {
+
+const PlacedStudent = () => {
   return (
     <div>
       <h1 className='mt-[100px]'>placed students </h1>
@@ -9,4 +9,4 @@ const Placed_student = () => {
   )
 }
 
-export default Placed_student
+export default PlacedStudent
