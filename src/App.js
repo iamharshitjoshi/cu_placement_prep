@@ -15,13 +15,10 @@ function App() {
     <BrowserRouter>
     <Navbar/>
         <Routes>
-<<<<<<< HEAD
+            <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home/>} />
-            <Route path="/placed_student" element={<Placed_student />} />
-=======
+            <Route path="/placed_student" element={<PlacedStudent />} />
             <Route path="/companies" element={<Home/>} />
-            <Route path="/PlacedStudent" element={<PlacedStudent />} />
->>>>>>> Anas
             <Route path="/preparation" element={<Preparation />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signUp" element={<SignUp />} />

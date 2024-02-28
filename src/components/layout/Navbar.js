@@ -32,7 +32,6 @@ const Navbar = () => {
           <Link to='/signUp'
             type="button"
             className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-            onClick={window.location.href = "/login"}
           >
             SignUp
           </Link>
@@ -108,7 +107,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/home"
-                className="block py-2 px-3 text-white bg-blue-700 rounded hover:bg-white hover:text-blue   hover:rounded-lg hover:px-2  md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                className="block py-2 px-3 text-white bg-blue-700 rounded hover:bg-white hover:text-blue hover:rounded-lg hover:px-2  md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
               >
                 Home
               </Link>
