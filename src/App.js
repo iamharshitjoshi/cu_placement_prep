@@ -15,8 +15,13 @@ function App() {
     <BrowserRouter>
     <Navbar/>
         <Routes>
+<<<<<<<<< Temporary merge branch 1
             <Route path="/home" element={<Home/>} />
-            <Route path="/placedStudent" element={<PlacedStudent />} />
+            <Route path="/placed_student" element={<Placed_student />} />
+=========
+            <Route path="/companies" element={<Home/>} />
+            <Route path="/PlacedStudent" element={<PlacedStudent />} />
+>>>>>>>>> Temporary merge branch 2
             <Route path="/preparation" element={<Preparation />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signUp" element={<SignUp />} />
