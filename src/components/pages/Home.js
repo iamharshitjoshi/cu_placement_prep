@@ -31,13 +31,8 @@ const Home = () => {
       </div>
 
      
-      <AwesomeSlider className='h-[500px] bg-white'>
-        <div className='h-3/6 absolute mr-6 flex justify-center flex-col items-center bg-white'>
-          <h1 className='text-6xl font-extrabold text-yellow-400'>Reviews</h1>
-            <h2 className='text-3xl w-2/3 text-cyan-100 text-center'>Placement Stories</h2>
-          <h2>Harshit Joshi</h2>
-          <p className='w-2/3 text-center '>Chandigarh University delivers every opportunity you require to secure a good employment opportunity with your ideal company. Whether it's honing active soft skills through seminars, the opportunity to attend technical workshops, or any other assistance students need, Chandigarh University and the faculty of the department are always willing to assist in an extremely helpful manner. At the conclusion of each day, I found that this place is where dreams come true and where one embarks on a journey of self-discovery.</p>
-        </div>
+      <AwesomeSlider className='h-[500px]'>
+      
         <div className='h-3/6 absolute mr-6 flex justify-center flex-col items-center '>
           <h1 className='text-6xl font-extrabold text-yellow-400'>Reviews</h1>
             <h2 className='text-3xl w-2/3 text-cyan-100 text-center'>Placement Stories</h2>
@@ -50,11 +45,7 @@ const Home = () => {
           <h2>Harshit Joshi</h2>
           <p className='w-2/3 '>Chandigarh University delivers every opportunity you require to secure a good employment opportunity with your ideal company. Whether it's honing active soft skills through seminars, the opportunity to attend technical workshops, or any other assistance students need, Chandigarh University and the faculty of the department are always willing to assist in an extremely helpful manner. At the conclusion of each day, I found that this place is where dreams come true and where one embarks on a journey of self-discovery.</p>
         </div>
-        
-
       </AwesomeSlider>
-    
-
     </>
   )
 }
