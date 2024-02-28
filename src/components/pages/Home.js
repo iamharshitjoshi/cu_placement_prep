@@ -1,7 +1,6 @@
 import React from 'react'
 import bg from '../../images/bg.jpg'
 import Card from '../layout/Card'
-import student from '../../images/Studeent.jpg'
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import  FooterWithSocialLinks  from '../layout/FooterWithSocialLinks';
@@ -46,51 +45,45 @@ const Home = () => {
         <Card />
         <Card />
       </div>
-      
-        <AwesomeSlider className='h-[420px] bg-green-600'>
 
-          <div className='absolute mr-6 p-20 mt-7 text-center '>
-            <h1 className='text-3xl font-bold text-red-500'>Reviews</h1>
+      <div className=' text-white'>
+        <div className=' w-full h-[480px]  object-cover relative bg-black'>
+          <img className=' w-full  h-full absolute mix-blend-overlay' src={student} alt='Background'></img>
+        
+        </div>
+      </div>
+
+      <div>
+        <AwesomeSlider>
+          <div className=' absolute mr-6 p-20 mt-16 text-center'>
+            <h1 className='text-6xl font-extrabold text-yellow-400 '>Reviews</h1>
             <div className='flex justify-center'>
-               <h2 className='text-5xl w-2/3 text-black font-bold mt-3'>Pacement Stories</h2>
+               <h2 className='text-3xl w-2/3 text-cyan-100 mt-3'>Pacement Stories</h2>
             </div>
-            <h2 className='text-3xl font-bold mt-5'>Harshit Joshi</h2>
-            <p className='w-4/5 mx-auto'>Chandigarh University delivers every opportunity you require to secure a good employment opportunity with your ideal company. Whether it's honing active soft skills through seminars, the opportunity to attend technical workshops, or any other assistance students need, Chandigarh University and the faculty of the department are always willing to assist in an extremely helpful manner. At the conclusion of each day, I found that this place is where dreams come true and where one embarks on a journey of self-discovery.</p>
-          </div>
-          <div className='absolute mr-6 p-20 mt-7 text-center '>
-            <h1 className='text-3xl font-bold text-red-500'>Reviews</h1>
-            <div className='flex justify-center'>
-               <h2 className='text-5xl w-2/3 text-black font-bold mt-3'>Pacement Stories</h2>
-            </div>
-            <h2 className='text-3xl font-bold mt-5'>Harshit Joshi</h2>
-            <p className='w-4/5 mx-auto'>Chandigarh University delivers every opportunity you require to secure a good employment opportunity with your ideal company. Whether it's honing active soft skills through seminars, the opportunity to attend technical workshops, or any other assistance students need, Chandigarh University and the faculty of the department are always willing to assist in an extremely helpful manner. At the conclusion of each day, I found that this place is where dreams come true and where one embarks on a journey of self-discovery.</p>
-          </div>
-          <div className='absolute mr-6 p-20 mt-7 text-center '>
-            <h1 className='text-3xl font-bold text-red-500'>Reviews</h1>
-            <div className='flex justify-center'>
-               <h2 className='text-5xl w-2/3 text-black font-bold mt-3'>Pacement Stories</h2>
-            </div>
-            <h2 className='text-3xl font-bold mt-5'>Harshit Joshi</h2>
-            <p className='w-4/5 mx-auto'>Chandigarh University delivers every opportunity you require to secure a good employment opportunity with your ideal company. Whether it's honing active soft skills through seminars, the opportunity to attend technical workshops, or any other assistance students need, Chandigarh University and the faculty of the department are always willing to assist in an extremely helpful manner. At the conclusion of each day, I found that this place is where dreams come true and where one embarks on a journey of self-discovery.</p>
-          </div>
-          <div className='absolute mr-6 p-20 mt-7 text-center '>
-            <h1 className='text-3xl font-bold text-red-500'>Reviews</h1>
-            <div className='flex justify-center'>
-               <h2 className='text-5xl w-2/3 text-black font-bold mt-3'>Pacement Stories</h2>
-            </div>
-            <h2 className='text-3xl font-bold mt-5'>Harshit Joshi</h2>
-            <p className='w-4/5 mx-auto'>Chandigarh University delivers every opportunity you require to secure a good employment opportunity with your ideal company. Whether it's honing active soft skills through seminars, the opportunity to attend technical workshops, or any other assistance students need, Chandigarh University and the faculty of the department are always willing to assist in an extremely helpful manner. At the conclusion of each day, I found that this place is where dreams come true and where one embarks on a journey of self-discovery.</p>
+            <h2>Harshit Joshi</h2>
+            <p>Chandigarh University delivers every opportunity you require to secure a good employment opportunity with your ideal company. Whether it's honing active soft skills through seminars, the opportunity to attend technical workshops, or any other assistance students need, Chandigarh University and the faculty of the department are always willing to assist in an extremely helpful manner. At the conclusion of each day, I found that this place is where dreams come true and where one embarks on a journey of self-discovery.</p>
+
           </div>
 
-          
+          <div className='absolute mr-6 p-20 mt-16 text-center '>
+            <h1 className='text-6xl font-extrabold text-yellow-400'>Reviews</h1>
+            <div className='flex justify-center'>
+               <h2 className='text-3xl w-2/3 text-cyan-100 mt-3'>Pacement Stories</h2>
+            </div>
+            <h2>Harshit Joshi</h2>
+            <p>Chandigarh University delivers every opportunity you require to secure a good employment opportunity with your ideal company. Whether it's honing active soft skills through seminars, the opportunity to attend technical workshops, or any other assistance students need, Chandigarh University and the faculty of the department are always willing to assist in an extremely helpful manner. At the conclusion of each day, I found that this place is where dreams come true and where one embarks on a journey of self-discovery.</p>
+          </div>
+
+          <div className='absolute mr-6 p-20 mt-16 text-center '>
+            <h1 className='text-6xl font-extrabold text-yellow-400'>Reviews</h1>
+            <div className='flex justify-center'>
+               <h2 className='text-3xl w-2/3 text-cyan-100 mt-3'>Pacement Stories</h2>
+            </div>
+            <h2>Harshit Joshi</h2>
+            <p>Chandigarh University delivers every opportunity you require to secure a good employment opportunity with your ideal company. Whether it's honing active soft skills through seminars, the opportunity to attend technical workshops, or any other assistance students need, Chandigarh University and the faculty of the department are always willing to assist in an extremely helpful manner. At the conclusion of each day, I found that this place is where dreams come true and where one embarks on a journey of self-discovery.</p>
+          </div>
 
         </AwesomeSlider>
-
-      
-      
-      <div className='relative mt-11'>
-        <FooterWithSocialLinks/>
-      
       </div>
     </>
   )
