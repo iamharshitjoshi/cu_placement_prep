@@ -1,7 +1,7 @@
 import React from 'react'
 import bg from '../../images/bg.jpg'
 import Card from '../layout/Card'
-import slider from '../layout/slider'
+
 
 
 
@@ -28,7 +28,7 @@ const Home = () => {
         <Card />
         <Card />
       </div>
-      <slider/>
+      
       
 
       {/* <div className=' text-white'>
