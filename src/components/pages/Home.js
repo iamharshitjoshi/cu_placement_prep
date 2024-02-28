@@ -5,7 +5,7 @@ import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 import  FooterWithSocialLinks  from '../layout/FooterWithSocialLinks';
 import Slider from './Slider';
-
+import student from '../../images/Studeent.jpg'
 const slides = [
   {
     image: 'image1.jpg',
