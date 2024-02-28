@@ -6,6 +6,8 @@ import Navbar from "./components/layout/Navbar";
 import Home from "./components/pages/Home";
 import PlacedStudent from "./components/pages/PlacedStudent";
 import Preparation from "./components/pages/Preparation";
+import Login from "./components/pages/Login";
+import SignUp from "./components/pages/SignUp";
 
 function App() {
   return (
@@ -13,9 +15,13 @@ function App() {
     <BrowserRouter>
     <Navbar/>
         <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home/>} />
+            <Route path="/placed_student" element={<PlacedStudent />} />
             <Route path="/companies" element={<Home/>} />
-            <Route path="/PlacedStudent" element={<PlacedStudent />} />
             <Route path="/preparation" element={<Preparation />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/signUp" element={<SignUp />} />
         </Routes>
       </BrowserRouter>
       </div>
