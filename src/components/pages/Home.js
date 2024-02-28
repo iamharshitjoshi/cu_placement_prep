@@ -1,7 +1,8 @@
 import React from 'react'
 import bg from '../../images/bg.jpg'
 import Card from '../layout/Card'
-import student from '../../images/Studeent.jpg'
+import slider from '../layout/slider'
+
 
 
 const Home = () => {
@@ -27,19 +28,21 @@ const Home = () => {
         <Card />
         <Card />
       </div>
+      <slider/>
+      
 
-      <div className=' text-white'>
+      {/* <div className=' text-white'>
         <div className=' w-full h-[480px]  object-cover relative bg-black'>
           <img className=' w-full  h-full absolute mix-blend-overlay' src={student} alt='Background'></img>
-          <div className='absolute mr-6 p-20 mt-16 text-center'>
+          <div className='absolute mr-6 p-20 mt-16 text-center px-5'>
             <h1 className=' text-6xl font-extrabold text-cyan-100 '>Reviews</h1>
-            <h2 className=' text-3xl w-2/3 text-cyan-100 mt-3'>Pacement Stories</h2>
-            <h2>Haeshit Joshi</h2>
+            <h2 className=' text-3xl font-bold text-cyan-100 text-center'>Pacement Stories</h2>
+            <h2 className='text-3xl '>Haeshit Joshi</h2>
             <p>Chandigarh University delivers every opportunity you require to secure a good employment opportunity with your ideal company. Whether it's honing active soft skills through seminars, the opportunity to attend technical workshops, or any other assistance students need, Chandigarh University and the faculty of the department are always willing to assist in an extremely helpful manner. At the conclusion of each day, I found that this place is where dreams come true and where one embarks on a journey of self-discovery.</p>
 
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }
