@@ -1,0 +1,34 @@
+.slide-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+  
+  .slide-enter {
+    opacity: 0;
+  }
+  
+  .slide-enter-active {
+    opacity: 1;
+    transition: opacity 0.5s;
+  }
+  
+  .slide-exit {
+    opacity: 1;
+  }
+  
+  .slide-exit-active {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
